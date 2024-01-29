@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # env flags that need to be set:
-CLIENT_ID=myClientId
-CLIENT_SECRET=myClientSecret
-PROVIDER=google|github|azure
-REDIRECT_URI=http://ip:8084/login
+CLIENT_ID=93ae7696433a31f6c2a2
+CLIENT_SECRET=29e4c57025fa873685c81d7c17b830c80bfb0fa3
+PROVIDER=github
+REDIRECT_URI=http://54.88.91.13:9000/login
 
 set -e
 
