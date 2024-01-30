@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # env flags that need to be set:
-CLIENT_ID=12e5f0e5c52f56f7b115
-CLIENT_SECRET=cad0456f933e5be23e004cb2cc0f8611ab9538c3
+CLIENT_ID=35c67667cfa03a3e68ab
+CLIENT_SECRET=4730b721b4328ae5dacea4cc4d128e6fa374b04a
 PROVIDER=github
-REDIRECT_URI=http://3.82.231.0:9000
+REDIRECT_URI=http://3.89.138.255:9000
 set -e
 
 if [ -z "${CLIENT_ID}" ] ; then
