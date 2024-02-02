@@ -12,7 +12,7 @@ sudo bash InstallHalyard.sh --user ubuntu
 curl -fsSL get.docker.com -o get-docker.sh
 sh get-docker.sh
 sudo usermod -aG docker ubuntu
-sudo docker run -p 127.0.0.1:9000:9000 -d --name minio1 -v /mnt/data:/data -v /mnt/config:/root/.minio minio/minio server /data
+sudo docker run -p 127.0.0.1:9090:9000 -d --name minio1 -v /mnt/data:/data -v /mnt/config:/root/.minio minio/minio server /data
 
 sudo apt-get -y install jq apt-transport-https
 
